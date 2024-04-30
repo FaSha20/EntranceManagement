@@ -1,0 +1,9 @@
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/webserver.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/webserver_autogen_timestamp_deps.dir
+D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/webserver_autogen.dir
