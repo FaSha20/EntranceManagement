@@ -120,6 +120,7 @@ static byte mymac[] = { 0x74, 0x69, 0x69, 0x2D, 0x30, 0x31 }; // Arduino's MAC a
 byte Ethernet::buffer[500]; // Ethernet buffer size
 
 void setup() {
+  pinMode(4, OUTPUT);
   ether.begin(sizeof Ethernet::buffer, mymac, SS); // Initialize Ethernet with buffer size and MAC address
   ether.staticSetup(myip, gwip); // Set static IP and gateway
 }
@@ -131,8 +132,12 @@ void loop() {
       c = Serial.read();
       count++;
       id += c;
-      if (count == 9 ){
+      digitalWrite(4, HIGH);
+      delay(1000);
+      digitalWrite(4, LOW);
+      if (count != 9 ){
         id.toCharArray(id_input, 50);
+        digitalWrite(4, HIGH);
         break;
       }
   }  
