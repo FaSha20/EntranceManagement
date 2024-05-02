@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QtCore/QList>
-#include <QtCore/QByteArray>
+#include <QVector>
 
 QT_FORWARD_DECLARE_CLASS(QWebSocketServer)
 QT_FORWARD_DECLARE_CLASS(QWebSocket)
@@ -27,6 +27,7 @@ private:
     QWebSocketServer *m_pWebSocketServer;
     QList<QWebSocket *> m_clients;
     bool m_debug;
+    QVector<QString> users;
 };
 
 #endif // WEBSOCKET_H

@@ -33,8 +33,6 @@ bool HttpServer::setupRoutes()
         auto auth = request.value("authorization");
 
         if (auth == "810199440" || auth == "810199443" || auth == "810199419") {
-            // User newUser("newUserId", QDate::currentDate(), QTime::currentTime());
-            users.append(auth + QDate::currentDate().toString()+QTime::currentTime().toString());
             return QHttpServerResponse("text/plain", "Success\n", QHttpServerResponse::StatusCode::Ok);
         }
         QHttpServerResponse response("text/plain", "invalid\n",

@@ -1,5 +1,4 @@
 webserver_autogen/timestamp: \
-  C:/Qt/6.7.0/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFile \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFlags \

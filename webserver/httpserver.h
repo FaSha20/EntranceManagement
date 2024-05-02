@@ -21,7 +21,7 @@ private:
     QHttpServer m_httpServer;
     quint16 m_httpPort;
     quint16 m_sslPort;
-    QVector<QString> users;
+
 
 
     bool setupRoutes();

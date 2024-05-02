@@ -2,7 +2,6 @@
 #define WEBAPPLICATION_H
 
 #include <QObject>
-#include <QVector>
 #include "httpserver.h"
 #include "websocket.h"
 

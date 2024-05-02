@@ -1,6 +1,5 @@
 D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/EWIEGA46WW/moc_webapplication.cpp: D:/university/8/CPS/ca1/webserver/webapplication.h \
   D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/moc_predefs.h \
-  C:/Qt/6.7.0/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QCoreApplication \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFile \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFlags \

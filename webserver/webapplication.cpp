@@ -1,7 +1,7 @@
 #include "webapplication.h"
 
 WebApplication::WebApplication(QObject *parent)
-    : QObject(parent), port(8083), socket(port)
+    : QObject(parent), port(8083), socket(port, true)
 {}
 
 WebApplication::~WebApplication()

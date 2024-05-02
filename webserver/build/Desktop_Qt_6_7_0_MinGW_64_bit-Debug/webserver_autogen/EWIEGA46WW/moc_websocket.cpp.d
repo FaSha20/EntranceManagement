@@ -1,8 +1,8 @@
 D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/EWIEGA46WW/moc_websocket.cpp: D:/university/8/CPS/ca1/webserver/websocket.h \
   D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/moc_predefs.h \
-  C:/Qt/6.7.0/mingw_64/include/QtCore/QByteArray \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QList \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QVector \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -98,6 +98,7 @@ D:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webs
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtypes.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qvector.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h \
