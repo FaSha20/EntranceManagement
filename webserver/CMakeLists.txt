@@ -17,6 +17,10 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core HttpServer REQUIRED)
 add_executable(webserver
   main.cpp
 
+  webapplication.h webapplication.cpp
+  httpserver.h httpserver.cpp
+  websocket.h websocket.cpp
+
 )
 target_link_libraries(webserver PRIVATE Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::HttpServer)
 

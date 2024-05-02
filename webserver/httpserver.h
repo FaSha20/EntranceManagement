@@ -2,6 +2,12 @@
 #define HTTPSERVER_H
 
 #include <QObject>
+#include <QHttpServer>
+#include <QCoreApplication>
+#include <QFile>
+#include <QSslCertificate>
+#include <QSslKey>
+// #include "user.h"
 
 class HttpServer : public QObject
 {
@@ -9,8 +15,17 @@ class HttpServer : public QObject
 public:
     explicit HttpServer(QObject *parent = nullptr);
 
-signals:
+    bool startServer();
 
+private:
+    QHttpServer m_httpServer;
+    quint16 m_httpPort;
+    quint16 m_sslPort;
+    QVector<QString> users;
+
+
+    bool setupRoutes();
+    bool setupSSL();
 };
 
 #endif // HTTPSERVER_H

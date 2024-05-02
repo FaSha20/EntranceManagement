@@ -65,6 +65,30 @@ build CMakeFiles/webserver.dir/main.cpp.obj: CXX_COMPILER__webserver_unscanned_D
   OBJECT_DIR = CMakeFiles\webserver.dir
   OBJECT_FILE_DIR = CMakeFiles\webserver.dir
 
+build CMakeFiles/webserver.dir/webapplication.cpp.obj: CXX_COMPILER__webserver_unscanned_Debug D$:/university/8/CPS/ca1/webserver/webapplication.cpp || cmake_object_order_depends_target_webserver
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_HTTPSERVER_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\webserver.dir\webapplication.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/include -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtHttpServer -isystem C:/Qt/6.7.0/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.0/mingw_64/include/QtWebSockets
+  OBJECT_DIR = CMakeFiles\webserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\webserver.dir
+
+build CMakeFiles/webserver.dir/httpserver.cpp.obj: CXX_COMPILER__webserver_unscanned_Debug D$:/university/8/CPS/ca1/webserver/httpserver.cpp || cmake_object_order_depends_target_webserver
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_HTTPSERVER_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\webserver.dir\httpserver.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/include -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtHttpServer -isystem C:/Qt/6.7.0/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.0/mingw_64/include/QtWebSockets
+  OBJECT_DIR = CMakeFiles\webserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\webserver.dir
+
+build CMakeFiles/webserver.dir/websocket.cpp.obj: CXX_COMPILER__webserver_unscanned_Debug D$:/university/8/CPS/ca1/webserver/websocket.cpp || cmake_object_order_depends_target_webserver
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_HTTPSERVER_LIB -DQT_NETWORK_LIB -DQT_WEBSOCKETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\webserver.dir\websocket.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/university/8/CPS/ca1/webserver/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/webserver_autogen/include -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtHttpServer -isystem C:/Qt/6.7.0/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.0/mingw_64/include/QtWebSockets
+  OBJECT_DIR = CMakeFiles\webserver.dir
+  OBJECT_FILE_DIR = CMakeFiles\webserver.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target webserver
@@ -73,7 +97,7 @@ build CMakeFiles/webserver.dir/main.cpp.obj: CXX_COMPILER__webserver_unscanned_D
 #############################################
 # Link the executable webserver.exe
 
-build webserver.exe: CXX_EXECUTABLE_LINKER__webserver_Debug CMakeFiles/webserver.dir/webserver_autogen/mocs_compilation.cpp.obj CMakeFiles/webserver.dir/main.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6HttpServer.a C$:/Qt/6.7.0/mingw_64/lib/libQt6WebSockets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a || webserver_autogen webserver_autogen_timestamp_deps
+build webserver.exe: CXX_EXECUTABLE_LINKER__webserver_Debug CMakeFiles/webserver.dir/webserver_autogen/mocs_compilation.cpp.obj CMakeFiles/webserver.dir/main.cpp.obj CMakeFiles/webserver.dir/webapplication.cpp.obj CMakeFiles/webserver.dir/httpserver.cpp.obj CMakeFiles/webserver.dir/websocket.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6HttpServer.a C$:/Qt/6.7.0/mingw_64/lib/libQt6WebSockets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a || webserver_autogen webserver_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = C:/Qt/6.7.0/mingw_64/lib/libQt6HttpServer.a  C:/Qt/6.7.0/mingw_64/lib/libQt6WebSockets.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Network.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\webserver.dir
