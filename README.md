@@ -140,3 +140,31 @@
 <br/><br/>
 
 
+## بخش سوم: سیستم نظارتی 
+ین سیستم شامل یک نرم افزار است که از طریق WebSocket با وب سرور در ارتباط است و به محض ورود اطالعات به وب سرور تمامی جزئیات بر روی این نرم افزار قابل مشاهده است. 
+به طور کلی، اتقاقی که در این بخش میفتد، زمانی که دکمه های مختلف gui کلیک میشوند، یکسری سیگنالها را emit میکند و توابع مختلف را از طریق وب سوکت، در سرور صدا میزند. برای validate یک یوزر، زمانی که روی دکمه انصال به سرور کلیک میشود، سیگنالی emit میشود که askServer را صدا میزند. این تابع یک connection با سرور برقرار میکند و چک میکند که آیا این یوزر با این یوزرنیم و پسورد ولید هست یا خیر. اگر ولید باشد، نشان میدهد و RFID اختصاص میدهد. اگر نباشد، میگوید که invalid user است. 
+
+<br/><br/>
+![2](https://github.com/FaSha20/EntranceManagement/assets/114980788/14b69c19-bf34-4e05-874e-9902cae26120)
+<br/><br/>
+![3](https://github.com/FaSha20/EntranceManagement/assets/114980788/8129ca28-0ebc-4e22-b3f3-4f6c9c0c18e5)
+<br/><br/>
+![4](https://github.com/FaSha20/EntranceManagement/assets/114980788/5fac5f07-9084-477b-aac4-3828e156be9f)
+<br/><br/>
+![5](https://github.com/FaSha20/EntranceManagement/assets/114980788/ef9392cb-b492-4f4e-b4f8-94a7dd6d4ead)
+<br/><br/>
+نمونه نتایح نیز در زیر قابل مشاهده است.
+<br/><br/>
+![1](https://github.com/FaSha20/EntranceManagement/assets/114980788/a049262c-005a-4abf-a1ff-9cde64a6a443)
+<br/><br/>
+![6](https://github.com/FaSha20/EntranceManagement/assets/114980788/ba462d2d-0e89-4988-8ff9-7dbd0cdf00ef)
+
+
+
+
+
+
+
+
+
+
