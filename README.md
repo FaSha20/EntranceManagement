@@ -98,4 +98,32 @@
 <br/><br/>
 ![image (15)](https://github.com/FaSha20/EntranceManagement/assets/114980788/6eb6ebeb-2f6a-4b4b-824f-6315bb720f5c)
 <br/><br/>
+<br/><br/>
+
+## بخش دوم: ابر (cloud) 
+این بخش متشکل است از یک وب سرور که شامل لیستی از افراد مجاز است. تمامی افراد خارج از این لیست ورودشان به شرکت غیر مجاز است. وب سرور و برد آردوینو از طریق پروتکل HTTP با یکدیگر ارتباط برقرار میکنند. کدهای مربوط به این بخش در ادامه آورده خواهند شد. 
+<br/><br/>
+کد این بخش به صورت objective طراحی شده است. همانطور که در قطعه کد پایین میبینیم، یک main داریم که core application در آن ساخته میشود، یک instance از object وب اپلیکیشن به نام webApp میسازیم و تابع startServer آن را فراخوانی میکنیم. 
+<br/><br/>
+![1](https://github.com/FaSha20/EntranceManagement/assets/114980788/f458224e-d559-465b-8f36-d1d58b0de755)
+<br/><br/>
+در این ساختار ما سه هدر داریم. http server، web socket و web application. در main ابتدا web application را میسازیم و در constructor وب اپلیکیشن، یک نسخه از http server و یک نسخه web socket و پورتی که قرار است سوکت رویش گوش کند. 
+کلاس web application یک تابع start server دارد که http server را بالا می اورد. وب سوکت هم در constructor وب اپلیکیشن ساخته میشود و با پورتی که برای آن مشخص کرده ایم (8083) و true (که یعنی مشغول گوش دادن باش) اجرا میشود. 
+<br/><br/>
+![2](https://github.com/FaSha20/EntranceManagement/assets/114980788/5594d908-6f37-4f79-9669-aace776a5951)
+<br/><br/>
+![3](https://github.com/FaSha20/EntranceManagement/assets/114980788/78ba6746-5b70-4ad6-8bb9-57248f29f113)
+<br/><br/>
+در هدر http server یک QhttpServer و دو پورت تگه داری میکنیم. تابع start server، ابتدا ro,t ها را تعریف میکند و تابع setupRout را صدا میزند. rout در واقع یک هدر authentication و در ادامه 3 تا RFID که در این مثال 3 شماره دانشجویی قرار داده شده است، اگر ورودی با این سه شماره دانشجویی برابر بود، ریسپانس ok میدهد و در غیر این صورت، ریسپانس invalid میدهد. پس از ست کردن rout، به http server دستور listen میدهد. و سرور روی لوکال هاست و پورتی که به آن داده شده بود، مشغول گوش دادن میشود. سپس setupSSL را صدا میزنیم. این تابع پیکربندی مربوط به SSL را انجام میدهد. 
+<br/><br/>
+![4](https://github.com/FaSha20/EntranceManagement/assets/114980788/f0ff8e95-2568-498f-b13d-61ac9709cede)
+<br/><br/>
+![5](https://github.com/FaSha20/EntranceManagement/assets/114980788/9f07ac39-b217-43dd-a8fd-01a833508d9a)
+<br/><br/>
+![6](https://github.com/FaSha20/EntranceManagement/assets/114980788/2d56f201-d79d-4a91-958b-7c224e65b24e)
+<br/><br/>
+![7](https://github.com/FaSha20/EntranceManagement/assets/114980788/3ae78003-0afb-4b16-a3af-2b2967a562dc)
+<br/><br/>
+سپس به توضیحات مربوط به وب سوکت میرسیم. 
+
 
